@@ -33,3 +33,6 @@ END
 END
 ```
 This project comes packaged with algs.txt filled for LS sets 1-6. 
+
+<img width="1003" alt="image" src="https://user-images.githubusercontent.com/54251767/198387323-b1773974-a3fe-4d11-8f32-0971ee1d05ed.png">
+<img width="1003" alt="image" src="https://user-images.githubusercontent.com/54251767/198387450-e5511663-d152-4a04-b2e3-e5bcff8aaab4.png">
