@@ -6,8 +6,9 @@ Extra controls:<br />
 1 -> Previous scramble<br />
 spacebar -> reset current case (use when you mess up the alg)<br />
 ## Removal vs Replacement mode
-You can toggle between these modes once you've selected the cases you want to train.
+You can toggle between these modes once you've selected the cases you want to train.<br />
 In removal mode, all the cases youve enabled will be shown to you once before a case can be shown a second time. This is useful when you want to ensure you remember every algorithm for a set.
+<br />
 In replacement mode, cases will be shown from those enabled at random, and you may get the same case multiple times in a short period. The same case will not appear twice in a row.
 ## Algorithms
 In algs.txt you can add Sets (Like LS-1) and Subsets (Like LS-1 Sune) like shown below. You define a Set, with Subsets defined before the Set ends. Inside subset definitions should be one alg for each case. If the alg contains a rotation, it is recommended you invert that rotation at the end of the alg.
