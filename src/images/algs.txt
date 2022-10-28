@@ -1,0 +1,444 @@
+#SET LS1
+#SUBSET PBL
+F2 R2 U' R' F R' F2 R U' R'
+R' F R F' R' F R F' R' F R F'
+R U' R U' R' F R' F' R U R'
+R U' R' U2 R U R'
+R' F R F' U R U2 R'
+R U' R' F R F' R U R' U R'
+END
+#SUBSET Sune
+(U2) y' R' U2 R U' F R2 F' y
+(U2) R U R' U2 F R' F' R2 U R'
+U y R’ F R U2 R’ F R2 U’ R’ F y'
+(U) F R’ F’ R U’ F R’ F’ R
+(U’) F R’ F’ R U F R’ F’ R
+y R' F2 R U2 R' F R U' R' F R y'
+END
+#SUBSET Anti-Sune
+(U2) R U2 R' U y' R' U2 R
+R U' R2 F R F' U2 R U' R' 
+(U') R U' R' U2 R U' R2 F R F'
+U’ R’ F R F’ U R’ F R F’
+(U) R' F R F' U' R' F R F'
+R U2 R' U2 R U' R' U R U' R'
+END
+#SUBSET U-A
+(U') R2 F R F' R U' R' U R' 
+(U) y R' F R U L' U L2 F' L' F y'
+(U') R U' R' U R U' R' U R U' R'  
+U' F' R2 F' R2 F R2
+(U') F2 U' R' U R' F' R2
+(U2) F' R U2 R' F U2 R' F R
+END
+#SUBSET U-B
+U2 R U' F R' F' R U R' U' R2
+(U') R U' R' U' R U' R2 F R F'
+(U) y R’ F R U’ R’ F R U’ R’ F R y'
+(U) R U2 R' U' F R F' R U R2
+(U) R2 F R F' U R U2 R' U2 R'
+(U2) R U R' U' R U2 R' U2 R U R'
+END
+#SUBSET L-A
+(U2) R2 F' R U' R' F2 R2 U' R2
+(U2) R U R' U' F R' F' R2 U R'
+(U) R U' R' U2 R U2 R2 F R F' 
+(U) R U' R2 F R F' R U' R'
+(U) R2 F' R U' F U R' F
+(U) y' R U2 R U2 R' U2 F R F'
+END
+#SUBSET L-B
+(U') R U R' F R F' R U R2
+y R' F2 R U2 R' F R2 U' R' F y'
+(U') R U2 R' F' U' F
+(U2) R U R' F R' F' R2 U R'
+R U' R2 F R F' U R' F R F'
+(U') R U R' F' R U' R' F2
+END
+#SUBSET T-A
+(U') R U' R2 F R F' U R U' R'
+y' (U2) R' U2 R' F R F' R U R' U' R y
+(U) y R' F R U' R' F R2 U' R' F y'
+(U') R U2 R' U R U2 R' F R' F' R
+(U') x U2 R U2 R' U2 R' x'
+(U') R U2 R' U2 R U2 R'
+END
+#SUBSET T-B
+(U2) R2 U' R' F R' F' R U' R'
+(U) R U2 R' U2 R U2 R' U R U' R'
+(U') R U' R' U R U' R2 F R F'
+(U') F R' F' R2 U' R' U R U R' 
+(U) x R2 U' R2 U R2 U x'
+(U) y R' F2 R U2 R' F2 R
+END
+END
+#SET LS2
+#SUBSET Hammer
+U F2 U R U R' U2 F2 R U' R'
+U2 R' F R F' R U’ R2 F R F’
+U2 R' U' R U' R2 U2 F R F'
+U' R U R' U R' F R F' R U' R'
+R U2 R2 F R F’ R’ F R F’
+U’ R U2 R’ U R2 U’ R’ F R’ F’
+END
+#SUBSET Spaceship
+U2 F' U F R' F R F' R U2 R'
+R U R’ U R U2 R’ F R’ F’ R
+U’ R U2 R' U R U' R'
+y’ U2 R2 U’ R2 U’ R’ U2 R2
+U’ R F R F' U R'
+y R U' R' F R' F' R2 U' R' F
+END
+#SUBSET Stollery-A
+ R U R' F' U' F
+ U R U R' U' R U R2 F R F'
+ F' R U' R' F2	
+ F R F' R U R2
+ R’ F R F’ R U R’ U2 R U2 R’
+ y R U' R' F R' F' R U' R' F R
+END
+#SUBSET Stollery-B
+U' R' U R2 U R2 U' F R F'	
+U F R F' R' U' R2 U R2
+y' R' U R2 U2 R' U2 R'
+U' F' R F2 R F2 R' F
+R2 U R2 F R F' R' U' R
+U2 F2 R2 U2 R' U R' F U' R'
+END
+#SUBSET Stollery-C
+(U') R2 U R' U' R' F R F' U R'
+U2 F’ U F U’ R U’ R’
+U’ F2 R' F2 R U2 R' F2 R
+F R' F' R2 U R2 F R F'
+R U R' U R U' R'
+R U' F R F' U R'
+END
+#SUBSET 2-Face
+y R' F2 R U' R' F R2 U' R' F 
+U' R U R' U R' F R F' U R U2 R'
+U R U R2 F R F' U R U2 R' 
+U2 R U2 R' U' R U R'	
+R2 F2 U' R U R' U F2 R2	
+U’ F R F' R U R' U R'
+END
+#SUBSET Turtle
+U y  R U' R' F U2 R' F R	
+y R U2 R' U2 R' F R U2 F'	
+U y R' F R U2 R' F R U' R' F R	
+F R' F' R2 U R' U R U' R'	
+U R U2 R' U' R U R2 F R F'
+R2 U' R U' R' U2 R U' R2
+END
+#SUBSET Gun-A
+R U R' U R2 U' R' F R' F'	
+U R F R' F' R2 U' R' U R	
+U R’ F R F’ R U’ R’	
+U2 F’ U F U2 R’ F R F’	
+U’ R U2 R2 F R F'	
+U2 R2 U' R2 U R' U R' U R2
+END
+#SUBSET Gun-B
+R U R' U' R U' R' U R' F R F' 	
+U' F2 R U R U2 R U2 R2 F	
+R U R' U2 F2 R U R' F 	
+y' U' R U’ R2 U R2 U R’	
+U R' F' R U' F R' F2 R	
+U2 R2 U2 R U2 R' F R F' R'
+END
+END
+#SET LS3
+#SUBSET Hammer
+(U) R' F2 R F' R U R2 F' R F'	
+(U2) y R U' R' F R' F R2 U' R' F	
+(U) R' F R F' R U R' U2 R' F R F'	
+(U) y R' F' R U' R U' R' F R' F R	
+F R F' R U' R' U2 R2 	
+R U2 R' U R' F R F' U R U' R'
+END
+#SUBSET Spaceship
+(U') R2 U' R' U2 R U' F R F' R	
+R U2 R' U' R U' R2 F R F'	
+(U) y R' F2 R U' R' F R	
+(U2) R U R' U R U R' U' R U R' 	
+(U) F' R' F' R U' F	
+R' F R F' R U R2 F R F'
+END
+#SUBSET Stollery-A
+F R' F' R U' R' F R F' U2 R U' R'
+(U2) y’ R’ U R’ F R F’ R
+F' U R' F' R U' F
+F' U' F U' F' U F
+(U) R U' R2 F' R U' F R' F2 R
+R U' R' U R U R2 F R F'
+END
+#SUBSET Stollery-B
+(U’) R U’ R’ U R’ F R F’ U R U’ R’	
+R U’ R U R’ U’ R’ F R F’ U R’	
+R2 U R2 U2 R’ U R’ F R F’ R	
+(U) R U2 R2 F’ R U’ F R’ F2 R	
+R U’ R’ U R U’ F R F’ U R’	
+(U’) R’ U R’ U R U’ R
+END
+#SUBSET Stollery-C
+(U2) R F R' F' U' R'
+F2 R U' R' F2 U2 R' F R	
+R' F R F' R U R' U R U' R'	
+R U' R' U2 R' F R F' R U' R' 	
+U' F' R U' R' F2 R U R'	
+R U R2 F R F'
+END
+#SUBSET 2-Face
+R U2 R' U R U' R2 F R F'	
+(U) F R' F' R U' R' F R F' R U R' U' R U R'	
+U R U R2 F R F' R U' R' 	
+U2 y' R' U2 R U R' U' R	
+U' R U2 R' U2 F2 R U R' F	 
+(U2) F U R U' R' F' R U' R' 
+END
+#SUBSET Turtle
+(U') R' F R F' U2 R U' R'	
+R U' R U' R' U2 R U' R2 F R2 F'	
+(U') R U' R' U2 R U' R' U R U' R'	
+R' U R2 U' R2 F R F' U2 R 	
+(U2) R U' R2 F R F' U2 R U R'	
+U R' F R F' R U R' U' R U' R'
+END
+#SUBSET Gun-A
+U R U' R2 F R F' U R U2 R' 	
+(U') R U R' U' R' F R F' U2 R U' R'	
+F R’ F’ R U’ R U2 R2 F R F’	
+U' R' U2 R U R' F R F' U R	
+F R' F' R U R' F R F' R U' R'	
+U R' U R2 U' R2 U' R
+END
+#SUBSET Gun-B
+(U) R U R' U' R' F R F' R U R2 F R F'
+U2 R' F' R U R U' R' U2 F	
+R2 U2 R' U' R U' R2	
+(U) F' U' F2 R F' R U R2	
+(U) y R' F2 R2 U' R' F	
+(U2) R U' R' U2 F R' F' R
+END
+END
+#SET LS4
+#SUBSET Sune-A
+R2 F R F' U R U2 R' U R'
+R U2 R2 F2 R U2 R U' R' F
+R U R' F R' F' R	
+(U) R' F2 R F' U R' F R	
+R U' R' U R U2 R'	
+R' F R F' U R U2 R' U2 R U' R'
+END
+#SUBSET Sune-B
+y' (U2) R2 F R F' U R U2 R' U R	y
+y (U2) F' R U' R' U' R U' R' y'
+(U') R F R' F' R U2 R U2 R2
+y  R2 F' R U R' F R2 U R' U' R y'
+y' (U2) R U' R2 U' R2 U R' y
+y R U' R' F U2 R' F' R y'
+END
+#SUBSET Sune-C
+(U') F R' F' R U2 R' U2 R U2 R	
+R U' R' U R U' R' U' R' F R F'	
+R U' R U' R' F R' F'	
+F R' F' R U' R U2 R' F R' F' R
+F R U2 R2 F R	
+(U2) R' U2 R U2 R' U R U' R' U R'
+END
+#SUBSET Pi-A
+y (U) R' F' R U2 F' R U R' y'
+(U2) R' F R F' R U2 R' U' R U' R'	
+y (U2) F' R U' R' U2 R' F R F' y'
+(U2) R U R' U2 R' F R F' R' F R F'
+(U2) R' F' R U R' F2 R F2
+y' U' R U R' U' R U2 R' U2 R2 y
+END
+#SUBSET Pi-B
+(U) R U R' U2 R U2 R' F R' F' R
+y (U2) F' R U R2 U' R U' R' U2 R y'
+y (U2) F' R U R' U2 R' F R F' R U R' y'
+y' (U2) R' U2 R' F R F' R U' R' U2 R y
+F R' F' R2 U' R' U R U2 R'
+(U) R U2 R' U2 R U' R'
+END
+#SUBSET U
+(U2) F R' F' R2 U' R' U R U' R'	
+(U') R U' R' U R' F R F' R U R'	
+y' (U2) R' U' R U' R' F R F' R U R'	y
+(U') R U R' U' R U' R'	
+y' R' F R F' R U' R U2 R' y	
+y' R U' R U R' U R' y
+END
+#SUBSET L
+(U) R U' R' U R' F R F'	
+(U2) F R' F' R2 U' R2 F R F'	
+(U') R2 F R F' R' U' R2	
+y' (U2) R' U' R U R' F' R U R U' R' F Y	
+y R2 F R U' R	
+R U2 R' U2 R U' R' F R' F' R
+END
+#SUBSET T
+y' (U2) R2 F R F' R U' F R F'
+(U2) R2 F' R U R' U' R' F R2
+y' (U) F R F' U R' U' R	
+R U' R' U' R' F R F'
+(U') R2 U' R' F R' F'
+y' (U) R2 F R F' R U R' U' R
+END
+#SUBSET H
+y' (U2) R' U' R U R' F R F' R U R' y
+y F U' R U' R' F' y'
+y (U2) R' F' R U R' U' R U' R' U2 R	y'
+(U2) R U R' U' R U' R2 F R F'	
+y (U) F' R U' R' F U2 R' F R F' y'
+y' (U') R U R' U R' U2 R' F R F' y
+END
+END
+#SET LS5
+#SUBSET Hammer-A
+y' (U') R U2 R' U2 R' F R' F' y
+R' F R F' R U R' F R' F' R	
+R' F R F' R U' R' U R U2 R'	
+(U2) F' R U' R' F2 R U' R'	
+F2 R U2 R' U2 R' F2 R	
+F' R U2 R' U2 R' F R
+END
+#SUBSET Hammer-B
+(U2) R U R2 F R F' U R U' R'	
+R U' R' F R' F' R U2 R U2 R'	
+R U2 R'	
+y' (U2) R' U' R2 U R' U' R' F R F' y
+(U') R U2 R' F R' F' R	
+y R' F R F' R U R' U2 R' F R y'
+END
+#SUBSET Spaceship-A
+(U2) R' U' R U R' F R F' R' U' R2
+ R' F2 R U' R U2 R' F	
+ R' F R F' R U2 R'	
+ F2 R U2 R U' R' F R'	
+ y' (U') R' U' R U' R' U' R	y
+ F' R U2 R' F R U2 R' F
+END
+#SUBSET Spaceship-B
+U' R2 U R2 U' R2 U' R' F R F' 	
+(U) R U2 R' U' F2 R U R' F	
+(U) R U R' U R' F R F'	
+(U2) R' F' R U2 R U2 R' F
+y F' R U R' U' R U' R' F y'
+y' R2 U' R U R2 y
+END
+#SUBSET Stollery
+y' R' U' R U2 R' F R' F' R2 y
+y' R U R' U' R' F R2 F' y
+y' (U') F R F' U2 R' U' R y
+(U2) R U2 R' U F' R U' R' F2
+(U2) R' U R' U' R U' F R F'
+F' U F U2 R U' R'
+END
+#SUBSET Pinwheel
+y' (U2) R U' R' F U2 R2 F R2 y
+y' (U') F R2 F' R U2 R U2 R' y
+y (U) R U' R' U2 F U2 F y'
+y' (U) R' F R' F' R2 U R' U' R y
+y (U2) R' F R U2 R U' R' F y'
+(U') R2 U2 R U2 R' U R'
+END
+#SUBSET Turtle-A
+y' F R F' R U2 R U2 R' y
+y' R' U' R2 U' R' F R' F' R y
+(U2) R F' R U R' U2 R' F2 
+y (U) F' R U R' U R U' R' F  y'
+(U') R U R2 U' R2 U' R2 U2 R
+y' (U') R U' R U2 R' U R' y 
+END
+#SUBSET Turtle-B
+(U2) R' F R2 U' R' F' R' F R
+y R' U2 F R U2 R' F U' R y'
+R' F' U' F U' R U2 R
+R' U2 R U' R' U R U' R
+R U2 R' U2 R' F R F' R U R'
+(U') R U' F R F' U' R'
+END
+#SUBSET Pinwheel-Poser
+y (U') R' F R F' R U R2 F R y'
+y' (U2) R U2 R' U2 R' F R2 F' y
+(U) R U2 R' U F' U' F
+y' R U2 R' U' R U' R' F R F' y
+R' U2 R' U2 F R F'
+y' R' U R U' R2 F R F' R y
+END
+END
+#SET LS6
+#SUBSET Hammer
+y' (U2) R U' R2 U' R F R' F' R y
+y' (U2) R' U2 R U' R' U2 R y
+y R F' U R' F R2 U2 F y'
+y (U2) F R2 U' R' F R' F2 y'
+R U2 R2 F R F' R U R'	
+(U2) R' F R F'
+END
+#SUBSET Spaceship
+y' (U2) R2 F R F' R U R' U2 R y
+y R2 F2 R F' R U R' U2 R y'
+y (U) R' F R F' R U R2 F' R y'	
+y' R' F R F' R U R' U2 R' U2 R y 
+y (U2) R U2 R' U' R U' R2 F2 R y'
+y' (U') R' U2 R F R' F' y
+END
+#SUBSET Two-Face
+y' F R F' R U R U' R' y
+y' (U2) R' U' R	y
+(U2) R U' R' F R F' R U R2	
+R' F2 R2 U R' F R' F2 R	
+R' U' R2 U' R' U2 F R F'	
+(U2) R U' R' F' R U' R' F2
+END
+#SUBSET Turtle
+(U') R U R' U2 R' F R F'	
+y' R' F' R U R' U2 R' F2 R2	
+(U') R U' R2 F R F' R U R'	
+y (U) F' R U' R' F R U2 R'	
+(U) R U' R' U2 R U' R' 	
+(U) F U2 R2 F U' R U' R
+END
+#SUBSET Pinwheel-Poser-A
+(U) R U2 R' U R' F R F'	
+R U' R2 F R F' U R U R'	
+y' F R' F' U' R' U' R y
+F R U2 R2 F' R U R' F R	
+y' (U2) R' F' R U' R' F2 U2 R y
+y (U) R' U2 R U R2 F' R U R y'
+END
+#SUBSET Pinwheel-Poser-B
+y' (U) F R' F' U R' U' R y
+R' F R F' U2 R' F R F' U'
+y' F U2 R2 F R U2 R2 y
+(U) R U2 R' U2 R2 U' R' F R' F'
+y' (U2) R2 U2 R U' R2 F R F' R' y
+y' R U R' U2 R U R' U R' y
+END
+#SUBSET Pinwheel-Poser-C
+(U2) F' U2 F U R U R'
+(U') R2 U R' U2 R' F R' F'
+(U) R2 U2 R' F U2 R2 F
+R U' R' U F2 R U R' F
+(U2) R' F R2 F' U' R' U' R	
+y' (U) R' U' R U' F R' F' y
+END
+#SUBSET Gun-A
+R' U' F R F' R' U' R U2 R
+(U2) F' U F U2 R U R'
+R' F2 R F' R' F2 R2 U2 R'
+R2 U' F R' F' R2 U2 R
+(U') R U' R'
+y (U) R U2 R' F R U2 R2 F' R y'
+END
+#SUBSET Gun-B
+y (U2) F' R U' R' F R U2 R2 F R y'
+(U') R' U R U2 R' F R2 F'	
+y' (U) R' U' R' F R F' R y
+R' F R F' R' F R F' R U2 R'
+(U') F2 U' R U' R' U F2
+y' (U) R' U' R' F' R U' R' F2 R2 y
+END
+END
